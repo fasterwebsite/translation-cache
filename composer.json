@@ -1,0 +1,26 @@
+{
+    "name": "fasterwebsite/translation-cache",
+    "description": "Speeds up WordPress translation file loading",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "FasterWebsite\\TranslationCache\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt Klepaczewski",
+            "email": "matt@fasterwebsite.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "fasterwebsite/perf-utils": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:fasterwebsite/perf-utils.git"
+        }
+    ]
+}

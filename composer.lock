@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "be77e792ed2eae004adb31b133d1e900",
+    "packages": [
+        {
+            "name": "fasterwebsite/perf-utils",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:fasterwebsite/perf-utils.git",
+                "reference": "f2a8cbaba1b31722c7084f37984ff3a3649cfdf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fasterwebsite/perf-utils/zipball/f2a8cbaba1b31722c7084f37984ff3a3649cfdf2",
+                "reference": "f2a8cbaba1b31722c7084f37984ff3a3649cfdf2",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.96",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "fasterwebsite\\perf\\utils\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Matt Klepaczewski",
+                    "email": "matt@fasterwebsite.com"
+                }
+            ],
+            "description": "Performance utilities",
+            "support": {
+                "source": "https://github.com/fasterwebsite/perf-utils/tree/clients/cined",
+                "issues": "https://github.com/fasterwebsite/perf-utils/issues"
+            },
+            "time": "2021-09-01T10:10:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fasterwebsite/perf-utils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
